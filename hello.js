@@ -43,3 +43,42 @@ q = q + "String";
 console.log(x,n,q);
 
 //declaration is case sensitive, use camel case
+var sum = 16283029+3284394 ;
+console.log(sum);
+var minus = 732802-64729
+console.log(minus);
+var multiply = 14*14;
+console.log(multiply);
+var divide = 45/9;
+console.log(divide);
+//Incrementing a number
+var number = 67;
+number++;
+console.log(number);
+
+//Decrement a number
+var num = 18;
+num--;
+console.log(num);
+
+//decimal number storing decimal numbers
+var ourDecimal = 5.7;
+var myDecimal = 0.005;
+var product = ourDecimal*myDecimal;
+console.log(product);
+
+// decimal points division
+var myDec = 0.5;
+var dec = 0.2;
+var division = myDec/dec;
+console.log(division);
+
+//Getting a remainder;
+var remainder;
+remainder = 11%3;
+console.log(remainder);
+
+//lets get complex 
+var j = 19;
+var i = 3;
+console.log("j divide by i is",j/i, "remainder", j%i);
