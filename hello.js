@@ -82,10 +82,12 @@ console.log(remainder);
 var j = 19;
 var i = 3;
 console.log("j divide by i is",j/i, "remainder", j%i);
-//Complex arithmetic 
+//Augmented addition
 var q = 3;
 var w = 17;
 var e = 12; 
+q += 12;
+console.log(q);
 
 q = q+12;
 console.log(q);
@@ -93,4 +95,27 @@ w = 9 + w;
 console.log(w);
 e = e + 7;
 console.log(e);
+
+q += 12;
+console.log(q);
+
+//Augmented substraction
+var t = 5;
+var r = 6;
+var d = 7;
+
+t -= 3;
+console.log(t);
+
+//Augmented multiplication
+
+var l = 5;
+var f = 6;
+var k =  7;
+
+l *= 5;
+console.log(l);
+
+f /=3;
+console.log (f);
 
