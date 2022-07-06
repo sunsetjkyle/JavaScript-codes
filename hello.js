@@ -82,3 +82,15 @@ console.log(remainder);
 var j = 19;
 var i = 3;
 console.log("j divide by i is",j/i, "remainder", j%i);
+//Complex arithmetic 
+var q = 3;
+var w = 17;
+var e = 12; 
+
+q = q+12;
+console.log(q);
+w = 9 + w;
+console.log(w);
+e = e + 7;
+console.log(e);
+
