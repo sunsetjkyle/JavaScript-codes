@@ -44,3 +44,25 @@ var lastname = "Jesus";
 
 lastnameLength=lastname.length;
 console.log(lastnameLength);
+
+//bracket notation to find the position of a character
+var firstLetterofMyName= "";
+var myName = "Real Madrid";
+firstLetterofMyName=myName[0];
+console.log(firstLetterofMyName);
+
+var secondLetterOfMyName = "";
+var myname = "Madrid";
+secondLetterOfMyName = myname[2];
+console.log(secondLetterOfMyName);
+
+//String immutability
+var myStr = "Jello World";
+myStr = "Hello World";
+
+
+//finding the last letter of a string
+var findLetter = "Leonardo Da Vinci";
+var lastNameFindLetter = findLetter[findLetter.length -1];
+console.log(lastNameFindLetter);
+
