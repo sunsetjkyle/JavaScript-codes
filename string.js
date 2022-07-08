@@ -66,3 +66,23 @@ var findLetter = "Leonardo Da Vinci";
 var lastNameFindLetter = findLetter[findLetter.length -1];
 console.log(lastNameFindLetter);
 
+var phone = "Safaricom";
+var lastPhone = phone[phone.length -1];
+console.log (lastPhone);
+
+//finding characters in the third last positions;
+ var bank = "Cooperative";
+ var lastThreeBank = bank[bank.length -3];
+ console.log(lastThreeBank);
+
+ //wordblanks using function
+ function wordblanks (myNoun, myAdjective, myverb, myAdverv) {
+    var result = "";
+
+    result+= "The " + myAdjective + " " + myNoun +" " + myverb + " to the store "+ myAdverv;
+
+    return result;
+ }
+console.log(wordblanks("dog", "big", "ran", "quickly"));
+console.log(wordblanks("cat", "small", "walked", "slowly"));
+
