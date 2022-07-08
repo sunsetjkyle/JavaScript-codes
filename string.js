@@ -29,3 +29,18 @@ var str = "FirstLine\n\t\\secondline\nThirdLine";
 console.log(str);
 
 //appending variables to a string
+var myVar = "My name is Sunset ";
+myVar+="Jesus"
+console.log(myVar);
+
+//finding the length of a string
+var firstnameLength = 0;
+var firstname ="sunset";
+firstnameLength = firstname.length;
+console.log(firstnameLength);
+
+var lastnameLength = 0;
+var lastname = "Jesus";
+
+lastnameLength=lastname.length;
+console.log(lastnameLength);
