@@ -30,3 +30,39 @@ console.log(changeArray);
 var setArray = [34,67,45,78,90];
 setArray [0] = 1;
 console.log(setArray);
+
+//Multi-dimensional array using indexes
+var allArrays = [[1,2,3], [4,4,6], [7,8,9], [10,11,12], [13,14,15]];
+var thirdArray = allArrays[2][2];
+console.log(thirdArray);
+
+//manipulating arrays data using push
+
+var ourNouns = ["John", "wah", "Bycicle"];
+ourNouns.push(["Ride", "happy"]);
+console.log(ourNouns);
+
+var allNouns = [["John", 23], ["Cat", 0]];
+allNouns.push(["dog", 3]);
+console.log(allNouns);
+
+//manipulating Arrays using pop
+
+var numArray = [7,8,9]
+var rmvArry = numArray.pop();
+//if you console.log the rmvarray, it will show the removed character
+console.log(numArray);
+
+var allNumArrays = [["Mabati", 34], ["mbwa", 45], ["simiti", 54]];
+var rmAllNumArrays = allNumArrays.pop();
+console.log(allNumArrays);
+
+// manipulating arrays with shift(); opposite to pop, removes the first data in array
+var shiftArray = ["mabati", "MRM", 80];
+var rmShiftArray = shiftArray.shift();
+console.log(shiftArray);
+
+var otherShiftArray = [["Mabati Rolling Mills", 80], ["simiti", 40], ["matope", 43]];
+var rmotherShiftArray = otherShiftArray.shift();
+console.log(otherShiftArray);
+
