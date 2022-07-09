@@ -82,4 +82,6 @@ console.log(nestedArrays);
 nestedArrays.shift();
 console.log(nestedArrays);
 
+//shopping bag
+var myList = [["cereal", 3], ["milk", 2], ["bread", 3]]; //shopping items and their quantities
 
