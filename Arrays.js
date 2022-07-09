@@ -66,3 +66,20 @@ var otherShiftArray = [["Mabati Rolling Mills", 80], ["simiti", 40], ["matope", 
 var rmotherShiftArray = otherShiftArray.shift();
 console.log(otherShiftArray);
 
+//manipulating arrays using unshift(); unshifts adds an array to the start of the arrays
+
+var unshiftArray = ["String", "C", 34];
+unshiftArray.shift();
+console.log(unshiftArray);
+
+unshiftArray.unshift("Variable");
+console.log(unshiftArray);
+
+var nestedArrays = [["a string", 45], ["Cat", 45], ["man", 100]];
+nestedArrays.unshift(["Woman",20]);
+console.log(nestedArrays);
+
+nestedArrays.shift();
+console.log(nestedArrays);
+
+
