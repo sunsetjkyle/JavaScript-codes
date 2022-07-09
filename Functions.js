@@ -16,3 +16,17 @@ function postMyNumber() {
 
 postMyNumber();
 postMyNumber();
+
+//passing values to functions with arguments
+//calling functions
+function functionWithArgs(nem, namba) {
+    console.log(nem + namba);   
+}
+
+functionWithArgs("SunsetJesus",34);
+functionWithArgs(6, 6);
+
+function myFunction(x,y) {
+    console.log(x - y);
+}
+myFunction(10, 5);
