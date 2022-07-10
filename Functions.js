@@ -30,3 +30,31 @@ function myFunction(x,y) {
     console.log(x - y);
 }
 myFunction(10, 5);
+
+//global scope variable functions
+
+var myGlobal = 15;
+
+function justForFun() {
+
+    oopsGlobal = 5; //the var keyword scopes the assignment to the function, so without
+    
+}
+
+function forFun() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {//does not equal
+        output+="myGlobal: " + myGlobal;
+        console.log(output);
+        
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += "oopsGlobal: " + oopsGlobal;
+        
+    }
+    console.log(output);
+}
+justForFun();
+forFun();
+
+
