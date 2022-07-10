@@ -57,4 +57,13 @@ function forFun() {
 justForFun();
 forFun();
 
+//local scopes and variables
+function myLocalScope() {
+    var myVariable= 10;
+    console.log(myVariable)
+    
+}
+myLocalScope();
+//local functions can not be global
+
 
