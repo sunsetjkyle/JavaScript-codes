@@ -66,4 +66,15 @@ function myLocalScope() {
 myLocalScope();
 //local functions can not be global
 
+//local variables take precedence over global variables
+var myClothes = "Trousers"//global variable
 
+function outfits() {
+   
+    var myClothes = "shoes"
+    return myClothes;
+    
+}
+console.log(outfits());
+
+console.log(myClothes);//global variable returns to Trousers
