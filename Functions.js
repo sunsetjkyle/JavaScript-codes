@@ -93,3 +93,15 @@ console.log(myClothes);//global variable returns to Trousers
     
  }
  console.log(addString("Welcome "));
+
+ //understanding undefined value returned from a function
+
+ var sum = 0;
+ function addTen() {
+    sum = sum + 10;
+    console.log(sum);
+ }
+
+ //assignment with a returned value
+ 
+ 
