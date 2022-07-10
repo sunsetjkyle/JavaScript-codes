@@ -78,3 +78,18 @@ function outfits() {
 console.log(outfits());
 
 console.log(myClothes);//global variable returns to Trousers
+
+//returning values from a function with return statement
+//putting a method in the console.log
+ function minusThree(num) {
+    return num -3;
+    
+ }
+
+ console.log(minusThree(15));
+
+ function addString(string) {
+    return string + "hello world"
+    
+ }
+ console.log(addString("Welcome "));
