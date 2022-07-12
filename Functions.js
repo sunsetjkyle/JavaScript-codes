@@ -103,5 +103,20 @@ console.log(myClothes);//global variable returns to Trousers
  }
 
  //assignment with a returned value
- 
+ var changed=0;
+ function change(num) {
+    return (num+5) /3;
+    
+ }
+ changed = change(10);
+ console.log(changed);
+
+ var processed = 0;
+ function processedArg(Num) {
+    return (Num+10/2);
+    
+ }
+processed = processedArg(10);
+console.log(processed);
+
  
