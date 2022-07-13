@@ -34,3 +34,15 @@ function willManUtdWinTheleague(yesTheyWill) {
     
 }
 console.log(willManUtdWinTheleague(true));
+//using the equality function
+
+function testEqual(val) {
+    if (val == 10) {
+        return "equal";
+        
+    }
+    return "unequal";
+}
+console.log(testEqual(15));
+/*console.log(testEqual(true));
+console.log(testEqual(false));*/
