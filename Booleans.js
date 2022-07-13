@@ -22,3 +22,4 @@ function isItTrue(FalschOderRichtig) {
     
 }
 console.log(isItTrue(true));
+console.log(isItTrue(false));
