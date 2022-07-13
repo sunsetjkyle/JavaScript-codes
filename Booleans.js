@@ -23,3 +23,14 @@ function isItTrue(FalschOderRichtig) {
 }
 console.log(isItTrue(true));
 console.log(isItTrue(false));
+
+function willManUtdWinTheleague(yesTheyWill) {
+    if (yesTheyWill) {
+        return "Glory glory man united";
+
+        
+    }
+    return "Glazers out";
+    
+}
+console.log(willManUtdWinTheleague(true));
