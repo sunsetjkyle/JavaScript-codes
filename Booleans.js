@@ -48,6 +48,7 @@ console.log(testEqual(15));
 console.log(testEqual(false));*/
 
 //Comparison using then strict equality operator triple equal sign - doesnt convert into a number
+//converts string into a number
 
 function testStrict(value) {
     if (value === 15) {//equality sign
