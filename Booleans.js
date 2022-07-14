@@ -72,7 +72,7 @@ console.log(testAgain('Sunset'));
 
 //differences between the equality operator and the strict equlaity operator
 function compareEquality(a, b) {
-    if (a ==b) {
+    if (a ===b) {
         return "equal";
         
     }
