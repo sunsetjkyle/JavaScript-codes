@@ -69,3 +69,14 @@ function testAgain(variable) {
 
 console.log(testAgain('maembe'));
 console.log(testAgain('Sunset'));
+
+//differences between the equality operator and the strict equlaity operator
+function compareEquality(a, b) {
+    if (a ==b) {
+        return "equal";
+        
+    }
+    return "Not Equal";
+    
+}
+console.log(compareEquality(10, "10"));
