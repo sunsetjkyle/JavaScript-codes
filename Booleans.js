@@ -46,3 +46,26 @@ function testEqual(val) {
 console.log(testEqual(15));
 /*console.log(testEqual(true));
 console.log(testEqual(false));*/
+
+//Comparison using then strict equality operator triple equal sign - doesnt convert into a number
+
+function testStrict(value) {
+    if (value === 15) {//equality sign
+        return "Equal";
+    }
+    return "Not equal";
+    
+}
+console.log(testStrict(15));
+
+function testAgain(variable) {
+    if (variable === 'Sunset') {
+        return "Sunset Jesus";
+        
+    }
+    return "Not applicable";
+    
+}
+
+console.log(testAgain('maembe'));
+console.log(testAgain('Sunset'));
