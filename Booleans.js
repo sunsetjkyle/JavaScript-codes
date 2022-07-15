@@ -103,3 +103,16 @@ function unequalAgain(theValue) {
     return "Same"
 }
 console.log(unequalAgain("45"));
+
+//strict inequality operator
+
+function strictInequality(theOnlyValue) {
+    if (theOnlyValue !== 7) {
+        return "Unequal"
+        
+    }
+    return "equal"
+    
+}
+console.log(strictInequality(7));
+console.log(strictInequality("7"));
