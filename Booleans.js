@@ -116,3 +116,21 @@ function strictInequality(theOnlyValue) {
 }
 console.log(strictInequality(7));
 console.log(strictInequality("7"));
+
+//comparison using greater than 
+
+function testGreaterThan(greaterValue) {
+    if (greaterValue > 100) {
+        return "over 100";
+        
+    }
+    if (greaterValue > 10) {
+        return "over 10";
+        
+    }
+    return "10 or under";
+    
+}
+console.log(testGreaterThan(10));
+console.log(testGreaterThan(200));
+console.log(testGreaterThan(12));
