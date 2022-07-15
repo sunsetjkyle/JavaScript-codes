@@ -81,3 +81,25 @@ function compareEquality(a, b) {
     
 }
 console.log(compareEquality(10, "10"));
+
+//inequality operator
+function notEqual(anadaValue) {
+    if (anadaValue != 200) {
+
+        return "not 200";
+    }
+    return "yes, it is 200";
+    
+}
+console.log(notEqual(150));
+
+//with a string number
+
+function unequalAgain(theValue) {
+    if (theValue != 45) {
+        return "not the same"
+        
+    }
+    return "Same"
+}
+console.log(unequalAgain("45"));
