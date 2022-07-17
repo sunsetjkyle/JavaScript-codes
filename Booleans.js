@@ -152,3 +152,21 @@ function greaterEqualTo(theRealValue) {
 console.log(greaterEqualTo(100));
 console.log(greaterEqualTo(40));
 console.log(greaterEqualTo(10));
+
+//comparison using the less than operator
+
+function lessThan(lessValue) {
+    if (lessValue < 6) {
+        return "Less than 6";
+        
+    }
+    if (lessValue < 15) {
+        return "less than 15";
+        
+    }
+    return "more than 15";
+    
+}
+console.log(lessThan(5));
+console.log(lessThan(13));
+console.log(lessThan(39));
