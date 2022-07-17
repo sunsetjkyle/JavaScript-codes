@@ -170,3 +170,19 @@ function lessThan(lessValue) {
 console.log(lessThan(5));
 console.log(lessThan(13));
 console.log(lessThan(39));
+
+
+//comparison using the less than or equal to operator
+function lessOrEqual(lessEqualValue) {
+    if (lessEqualValue <= 16) {
+        return "Value is 16 or less";
+        
+    }
+    if (lessEqualValue <= 50) {
+        return "Value is 50 or less";
+    }
+    return "Value is larger than 50";
+}
+console.log(lessOrEqual(16));
+console.log(lessOrEqual(45));
+console.log(lessOrEqual(100));
