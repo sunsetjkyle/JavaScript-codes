@@ -186,3 +186,29 @@ function lessOrEqual(lessEqualValue) {
 console.log(lessOrEqual(16));
 console.log(lessOrEqual(45));
 console.log(lessOrEqual(100));
+
+//comparisons using the logical operators >if two things are true at the same time
+//first option
+function testLogicalAnd(allValue) {
+    if (allValue >=15) {
+        if (allValue<=50) {
+            return "yes";
+            
+        }
+        
+    }
+    return "no"
+    
+}console.log(testLogicalAnd(30));
+
+//second option
+
+function wayTwo(compareValue) {
+    if (compareValue >= 50 && compareValue <= 100) {
+        return "Great";
+        
+    }
+    return "poor";
+    
+}
+console.log(wayTwo(45));
