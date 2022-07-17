@@ -134,3 +134,21 @@ function testGreaterThan(greaterValue) {
 console.log(testGreaterThan(10));
 console.log(testGreaterThan(200));
 console.log(testGreaterThan(12));
+
+//Comparison using the greater than or equal to operator;
+function greaterEqualTo(theRealValue) {
+    if (theRealValue >= 50) {
+        return "50 or over";
+        
+    }
+    if (theRealValue >= 30) {
+        return "30 or Greater";
+        
+    }
+    return "less than 20";
+    
+}
+
+console.log(greaterEqualTo(100));
+console.log(greaterEqualTo(40));
+console.log(greaterEqualTo(10));
