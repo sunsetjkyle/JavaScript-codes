@@ -1,0 +1,25 @@
+{
+  "name": "javascript-codes",
+  "version": "1.0.0",
+  "description": "This is a readme",
+  "main": "Arrays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/sunsetjkyle/JavaScript-codes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunsetjkyle/JavaScript-codes/issues"
+  },
+  "homepage": "https://github.com/sunsetjkyle/JavaScript-codes#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
+}

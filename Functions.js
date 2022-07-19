@@ -77,6 +77,8 @@ function outfits() {
 }
 console.log(outfits());
 
+//TODO make more examples
+
 console.log(myClothes);//global variable returns to Trousers
 
 //returning values from a function with return statement

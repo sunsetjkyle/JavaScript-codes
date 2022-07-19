@@ -1,3 +1,4 @@
+
 //welcome to booleans true or false statements
 function welcomeToBooleans() {
     return false;
@@ -212,3 +213,13 @@ function wayTwo(compareValue) {
     
 }
 console.log(wayTwo(45));
+
+//using the or operator
+
+function testLogicalOr(orValue) {
+    if (orValue > 30) {
+        return ""
+        
+    }
+    
+}
