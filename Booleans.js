@@ -218,8 +218,13 @@ console.log(wayTwo(45));
 
 function testLogicalOr(orValue) {
     if (orValue > 30) {
-        return ""
-        
+        return "outside";  
     }
-    
+    if (orValue<20) {
+        return "Outside";
+    }
+    return "Inside";
 }
+
+console.log(testLogicalOr(25));
+console.log(testLogicalOr(10));
