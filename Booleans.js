@@ -214,7 +214,7 @@ function wayTwo(compareValue) {
 }
 console.log(wayTwo(45));
 
-//using the or operator
+//using the or operator option 1
 
 function testLogicalOr(orValue) {
     if (orValue > 30) {
@@ -228,3 +228,15 @@ function testLogicalOr(orValue) {
 
 console.log(testLogicalOr(25));
 console.log(testLogicalOr(10));
+
+//option 2
+function orLogicalOperator(orValue2) {
+    if (orValue2 < 16 || orValue2 > 32) {
+        return "Either Young or old";
+
+    }
+    return "Right age"
+    
+}
+console.log(orLogicalOperator(15));
+console.log(orLogicalOperator(25));
